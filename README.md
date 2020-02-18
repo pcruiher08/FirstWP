@@ -13,7 +13,7 @@
         git commit -m "Message"
     </li>
     <li>
-        git remote add origin ulr-to-github-repo
+        git remote add origin url-to-github-repo
     </li>
     <li>
         git push -u origin master
