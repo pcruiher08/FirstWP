@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="EN">
+    <head>
+        <title>
+            Title of page
+        </title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- HEADERS DE 1 A 6 Y NO SE PUEDEN ANIDAR EN HEADERS -->
+        <h1>
+            Header1
+        </h1>
+        <h2>
+            Header2
+        </h2>
+        <h3>
+            Header3
+        </h3>
+        <h4>
+            Header4
+        </h4>
+        <h5>
+            Header5
+        </h5>
+        <h6>
+            Header6
+        </h6>
+        <p>
+            Paragraph
+        </p>
+        <a href="./other/home.html">
+            Link
+        </a>
+        <a href="https://www.w3schools.com/html/html_charset.asp">
+            Otro Link
+        </a>
+        <img src="https://www.yourhtmlsource.com/media/ross-icon.png" alt="Image of a person from a random page"/>
+        <!-- Ejemplos -->
+        <ol>
+            <li>
+                One
+            </li>
+            <li>
+                Two
+            </li>
+        </ol>
+        <ul>
+            <li>
+                One
+            </li>
+            <li>
+                Two
+            </li>
+        </ul>
+
+            <!--Accesible elements (they are all blocks)
+            doctype html,thead,tbody,ssection,tfoot,label,main,header,footer,article,cetner,address,nav
+            -->
+
+            <!-- Blocks -->
+            <!-- Headers, p, ol, ul,table,form,div -->
+
+            <!-- Inline -->
+            <!-- a,img/,button,input/,label,textarea,span -->
+
+        <!-- Table -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Column 1
+                    </th>
+                    <th>
+                        Column2
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Data 1
+                    </td>
+                    <td>
+                        Data 2
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Footer
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <form action="">
+            <fieldset>
+                <legend>
+                    Title
+                </legend>
+                <div>
+                    <label for="user-name">
+                        username:
+                    </label>
+                    <input type="text" id="user-name" class="info" name="user"/>
+                </div>
+                <div>
+                    <label for="password">
+                        password:
+                    </label>    
+                    <input type="password" id="password">
+                </div>
+                <div>
+                    <label for="range_1">
+                        From 10-20
+                    </label>
+                    <input type="checkbox" value="10_20" id="range_1" name="age_range"/>
+                </div>
+                <div>
+                    <label for="range_2">
+                        From 21-30
+                    </label>
+                    <input type="checkbox" name="age_range" id="range_2" value="21_30"/>
+                </div>
+                <div>
+                    <label for="gend">
+                        gender example:
+                    </label>
+                    <input type="radio" name="gender"/>
+                </div>
+                <div>
+                    <label for="num">
+                        number example:
+                    </label>
+                    <input type="number"/>
+                </div>
+                <div>
+                    <label for="date">
+                        date example:
+                    </label>
+                    <input type="date"/>
+                </div>
+                <div>
+                    <label for="mail">
+                        mail example:
+                    </label>
+                    <input type="email"/>
+                </div>
+                <div>
+                    <label for="tel">
+                        telephone example:
+                    </label>
+                    <input type="tel"/>
+                </div>
+                <div>
+                    <label for="country">
+                        Select a country
+                    </label>
+                    <select name="country" id="country">
+                        <option value="MX">
+                            México
+                        </option>
+                        <option value="FR">
+                            France
+                        </option>
+                        <option value="US">
+                            United States
+                        </option>
+                    </select>
+                    <textarea name="comment">
+                    </textarea>
+                    <!--Manera #1 de hacer un submit-->
+                    <input type="submit" value="Submit"/>
+                    <!--Manera #2 de hacer un submit-->
+                    <button type = "submit">
+                        Submit
+                    </button>
+                </div>
+                <!-- 
+                    Naming id and class attributes
+                    *Never begin with a number
+                    *By standard begin with lowercase
+                    *Follow with [a-z][A-Z][0-9][-_]
+                -->
+            </fieldset>
+        </form>
+</html>
